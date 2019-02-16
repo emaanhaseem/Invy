@@ -2,50 +2,54 @@
 <html>
   <head>
     <title>Invest</title>
+       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" />
+ 
     <script src="popup.js"></script>
+      
   </head>
-  <body>
-    <h1>Invest</h1>
-   <table id="table" border="1">
-            
-            <!-- The Row Number 0 -->
-            <tr>
-                <th>Interest Rate</th>
-                <th>ROI</th>
-                <th>Loan vs Pay in Full Ratio</th>
-            </tr>
-            <!-- End Row Number 0 -->
-            <!--
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            -->
-        </table>
-  </body>
+    
+    
+ <body class="popup-box">
+  <div id="working" style="display: none"></div>
+  <div id="message" style="display: none">
+    <div class="message-container"></div>
+  </div>
+  <div align="center" class="window_header">
+    <h1>Invest
+       
+    </h1>
+       
+        <h3 align="left">Overall Score: <h3>
+  </div>
+   
+  <div class="window_nav">
+    <ul>
+      <li>
+        <a class="int-rate">
+          
+          <span tr="intrate">Interest Rate: </span>
+        </a>
+      </li>
+      <li>
+        <a class="roni">
+          <span tr="roi">5 year ROI: </span>
+        </a>
+      </li>
+      
+      <li>
+        <a class="market">
+          <span tr="market">Market Condition:</span>
+        </a>
+      </li>
+     
+    </ul>
+  </div>
+  <div class="window_message" style="display: none" id="noall" tr="noall"></div>
+  <!-- <div class="window_translate" style="display: none">
+  Translate to:
+</div> -->
+  
+</body>
+
 </html>
