@@ -3,5 +3,11 @@
  "name": "Invest",
  "description": "Get necessary financial information and statistics that allow you to make educated decisions regarding properties in the current market.",
  "version": "1",
- "author": "CSBALLERZ"
+ "author": "CSBALLERZ",
+
+"browser_action": {
+		
+		"default_title": "Invest",
+		"default_popup": "popup.html"
+	}
 }
