@@ -1,9 +1,9 @@
 setTimeout(()=>{
    let tab = document.getElementById("table");
 
-var array = [["First"],
-             ["Second"],
-             ["Third"]]
+var array = [["Interest:", "First"],
+             ["ROI:","Second"],
+             ["Market:","Third"]]
                    
            
            for(var i = 0; i < array.length; i++)
@@ -14,6 +14,7 @@ var array = [["First"],
                for(var j = 0; j < array[0].length; j++)
                {
                    // create a new cell
+                   
                    var cell = newRow.insertCell(j);
                    
                    // add value to the cell
