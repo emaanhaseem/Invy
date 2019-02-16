@@ -4,6 +4,7 @@ chrome.extension.onRequest.addListener(function(request) {
     }
 });
 
+
 function displayQuestions(questions)                                                                                                                                                                        
 {     
     for (i = 0; i < questions.length; i++) {                                                                                                                                                                
