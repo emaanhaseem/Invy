@@ -9,5 +9,9 @@
 		
 		"default_title": "Invest",
 		"default_popup": "popup.html"
-	}
+	},
+     
+    "permissions": [
+   "activeTab"
+   ]
 }
