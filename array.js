@@ -1,8 +1,8 @@
 setTimeout(()=>{
    let tab = document.getElementById("table");
-
-    var value = document.getElementById("priceVal");
-var array = [["Interest:", value],
+    
+    
+    var array = [["Interest:", "First"],
              ["ROI:","Second"],
              ["Market:","Third"]]
                   
