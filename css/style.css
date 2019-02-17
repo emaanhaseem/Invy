@@ -1,8 +1,4 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  min-height: 0;
-}
+
 a {
   cursor: pointer;
 }
@@ -137,7 +133,7 @@ a {
   /* removed gradient css */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=0 );
   font-size: 13px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
