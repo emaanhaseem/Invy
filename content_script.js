@@ -7,4 +7,7 @@ $(function() {
     value = price;
 
     console.log(value)
+    
+
+    
 });
