@@ -1,4 +1,8 @@
-
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  min-height: 0;
+}
 a {
   cursor: pointer;
 }
@@ -83,6 +87,26 @@ a {
   text-align: center;
   color: red;
 }
+
+.score {
+  padding-right: 10px;
+  padding-bottom: 3px;
+  color: 	#	#A9A9A9;
+  font-weight: bolder;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.containerOne {
+  background-color: #F5F5F5;
+  border-color: #FC9F5B;
+  border-right: 3px;
+  border-left: 3px;
+}
+
 .popup-box {
   background: #fff;
   width: 280px;
@@ -103,30 +127,17 @@ a {
   height: 7px;
 }
 .window_header {
-  padding: 10px 15px 10px 15px;
+  padding: 0px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  border: 3px #ffffff solid;
+  border: 0px #FBD1A2 solid;
   /* border-radius: 8px 8px 0 0; */
-  border-radius: 15px;
-  background: #FBD1A2;
-  /* background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0%, #ffffff),
-    color-stop(100%, #eaeaea)
-  );
-  background: -webkit-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%); */
+  border-radius: 0px;
+  background: #7DCFB6;
+  color: #ffffff;
+  /* removed gradient css */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=0 );
   font-size: 13px;
-    font-family: "Lobster", sans-serif;
-  margin: 0;
-  min-height: 0;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -149,11 +160,15 @@ a {
   color: #191919;
 }
 .window_nav {
-  padding: 0;
-  border-bottom: 1px #e4e4e4 solid;
+  padding-bottom: 0;
+  /* border: 3px #7DCFB6 solid; */
+  /* border-color: #7DCFB6; */
+  border-radius: 10px;
+  background-color: #fdd2d2;
+  color: #191919;
 }
 .window_nav ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -169,7 +184,8 @@ a {
   border-bottom: 1px #eee solid;
   padding: 1px 12px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: normal;
+  /* font-weight: 700; */
 }
 .window_nav ul li:last-child a {
   border-bottom: none;
@@ -836,3 +852,4 @@ a {
   margin: 10px !important;
   cursor: pointer;
 }
+
