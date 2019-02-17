@@ -5,5 +5,6 @@ $(function() {
     
     var value = document.createElement("priceVal");
     value = price;
-    
+
+    console.log(value)
 });
