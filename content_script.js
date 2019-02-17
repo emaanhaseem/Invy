@@ -1,8 +1,7 @@
 $(function() {
-//    var y = document.getElementsByClassName('price');
-//    var x = y[0];
-//    console.log(x);
+
     var sample = document.querySelector("#hdp-content > main > div:nth-child(1) > div.home-details-summary-and-price > div.home-details-pricing-floater.zsg-lg-1-3.zsg-md-1-1 > div.home-details-price-area.zsg-content-item > div > div > div.price > span");
-    console.log(sample.innerHTML);
+    var price = sample.innerHTML;
+    
     
 });
