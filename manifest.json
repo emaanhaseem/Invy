@@ -21,9 +21,8 @@
             "matches": ["<all_urls>"],
             "js": [
                     "/external/jquery.js",
-                    "/content_script.js",
-                    "/firebase.js"
-                ]
+                    "/content_script.js"
+            ]
         }
     ]
     
